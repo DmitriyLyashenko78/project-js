@@ -13,4 +13,3 @@ while (position <= 10) {
     factorial = factorial * position;
     position++;
 }
-console.log(factorial)
