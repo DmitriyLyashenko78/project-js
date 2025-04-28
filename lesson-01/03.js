@@ -5,4 +5,11 @@
 */
 
 // your code
-let sum
+let sum = 0;
+let position = 1;
+
+while (position <= 20) {
+    sum = sum + position;
+    position = position +2;
+}
+console.log(sum)
