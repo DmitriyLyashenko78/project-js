@@ -11,4 +11,3 @@ while (position <= 20) {
   sum = sum + position;
   position++;
 }
-console.log(sum)
