@@ -10,5 +10,5 @@ let position = 1;
 while (position <= 20) {
   sum = sum + position;
   position++;
-  console.log(sum)
 }
+console.log(sum)
