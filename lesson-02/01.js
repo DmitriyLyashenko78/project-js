@@ -20,4 +20,3 @@ if ((isAdmin === true || isVerifiedUser === true) && (hasSpecialPermission === t
 } else {
     isAccess = false
 }
-alert(isAccess)
