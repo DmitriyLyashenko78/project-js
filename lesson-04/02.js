@@ -16,9 +16,11 @@
 */
 
 function findUniqueElements(array) {
-    let newArray = [array[0]]
+    let newArray = []
     let num = 1
-
+if(array[0] !== null && array[0] !== undefined){
+    newArray = [array[0]]
+}
     ttt:  for (let i = 0; i < array.length; i++) {
         for (let j = 0; j < i; j++) {
             if (array[j] === array[i]) {
@@ -38,4 +40,4 @@ function findUniqueElements(array) {
 }
 
 
-console.log(findUniqueElements([1, 2, 3, 2, 1, 4, 5, 5]))
+console.log(findUniqueElements([1, 2, 2, 3, 4, 4, 5]))
