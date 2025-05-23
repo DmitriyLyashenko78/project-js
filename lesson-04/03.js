@@ -12,4 +12,4 @@ function findCommonElements(arr1, arr2) {
     return newArr
 }
 
-console.log(findCommonElements([1, 2, 3, 4], [1, 2, 5]))
+
