@@ -21,7 +21,7 @@ const game = {
         } else if(resource === 'lumber'){
                    game.resources.lumber = game.resources.lumber + amount
                } else {
-                   return 'Invalid resource'
+                  console.log('Invalid resource')
                }
 
     }
